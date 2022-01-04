@@ -1,0 +1,50 @@
+.big-card-wrapper{
+    width: 215px;
+    height: 100%;
+    display: flex;
+}
+.big-card-content{
+    width: 188px;
+    height: 89%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+}
+.big-card-content-photo-wrapper{
+    width: 100%;
+    height: 180px;
+    border-bottom: 7px solid pink;
+}
+.big-card-content-photo{
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.big-card-content-photo-artist{
+    width: 188px;
+    height: 20px;
+    position: absolute;
+    top: 55%;
+    border-left: 7px solid pink;
+}
+.big-card-content-photo-artist-name{
+    color: white;
+    margin: -2px 9px;
+}
+.big-card-content-info-wrapper{
+    width: 100%;
+    height: 65px;
+    margin: 15px auto;
+}
+.big-card-content-artist-name{
+    color: white;
+    font-family: 'Montserrat-normal', sans-serif;
+    font-weight: 700;
+}
+.big-card-content-artist-descritption{
+    color: rgb(168, 164, 164);
+    font-family: 'Montserrat-normal', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
