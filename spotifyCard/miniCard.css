@@ -1,0 +1,32 @@
+.artist-image{
+   width: 90px;
+   height: 80px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 5px;
+   border: none;
+}
+.artist-name:hover > .play-circle {
+  color: red;
+}
+.artist-name{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto 10px;
+    font-family: "Montserrat-normal";
+}
+.play-circle{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #1DB954;
+    position: absolute;
+    right: 8%;
+    top: 21%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
