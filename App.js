@@ -3,7 +3,8 @@ import 'antd/dist/antd.css';
 import './App.css';
 import { Layout } from 'antd';
 import Head from "./spotifyHeader/Header";
-import Main from 'main/Main';
+import ConentTopMain from "./contentTopMain/ContentTopMain";
+import ContentMiddleMain from 'contentMiddleMain/ContentMiddleMain';
 
 function App() {
     const { Header, Footer, Sider, Content } = Layout;
@@ -17,8 +18,12 @@ function App() {
                 </Header>
                 <Content><div className="conent-wrapper">
                 <h1 className="good-afternoon">Good Afternoon</h1>
-                <Main/>
-                </div></Content>
+                <ConentTopMain/>
+                <h1 className="jumb-back-in">Jump Back-In</h1>
+                <ContentMiddleMain/>
+                </div>
+                
+                </Content>
                 <Footer>Footer</Footer>
              </Layout>
              <Sider>Sider</Sider>
